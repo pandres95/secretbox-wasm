@@ -1,0 +1,13 @@
+{
+  "name": "secretbox-wasm",
+  "version": "1.0.0",
+  "description": "WASM wrapper for NaCl Secretbox",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tinygo build -o ./dist/secretbox.wasm -target wasm ./src/main.go"
+  },
+  "keywords": [],
+  "author": "Pablo Dorado <hola@pablodorado.com>",
+  "license": "MIT"
+}
